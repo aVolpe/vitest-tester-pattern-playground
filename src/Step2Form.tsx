@@ -1,7 +1,7 @@
 import { useForm, SubmitHandler } from "react-hook-form"
 
 
-type Inputs = {
+export type Inputs = {
   lastname: string
   firstname: string
 }
